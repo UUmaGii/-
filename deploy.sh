@@ -17,6 +17,6 @@ git commit -m "deploy"
 # 推送到 gh-pages 分支
 git branch -M main
 git remote add origin git@github.com:你的GitHub用户名/你的GitHub仓库.git
-git push -f origin main:gh-pages
+git push -f origin main
 
 cd -
